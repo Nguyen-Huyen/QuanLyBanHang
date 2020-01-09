@@ -1,0 +1,35 @@
+administrator
+qtm@2019
+* mở máy ảo: khi vào mà nó k qua bước login thì log out, tìm ad min bằng phím alt+ crtl+ delete
+VM -> send alt+ crtl+ delete -> change password để thay đổi mk
+
+tạo bản sao dự phòng:
+VM -> chọn snapshot -> snapshot manager -> điền thông tin ( gồm tên và mô tả ở bảng take snapshot)
+
+- vào thư mục cài đặt máy ảo -tất cả các tập tin có đuổi vmdk -> copy bỏ vào thư mục khác
+google : import VMDK in VNware
+
+*Tắt máy ảo:
+- ctrl + alt: để con chuột ra bên ngoài ( đồng bộ con chuột vật lý với máy ảo)
+
+*tạo bảng: snapshot
+ - update VNware tools: để đồng bộ dl với máy chủ
+- virtual machine settings:( cài đặt share cho máy ảo)
++ bỏ card âm thanh
++ memory( bộ nhớ ram)
+
+*ngủ đông: power -> suspend, hoặc là power off
+
+*đổi tên server : SERVER23 
+IP: 192.168.1.23
+xem ip: Ipconfig
+	Ipconfig/all : xem tất cả
+	Ipconfig/renew: cấp IP mới
+	Ipconfig/release: giải phóng
+restart: chọn chi đó
+comment: 
+
+* MISDUE
+trong builtin: không được xóa các dl
+
+group: nếu move ông kia qua phòng khác, thì xóa member ở phòng này và chuyển sang phòng khác
